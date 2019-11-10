@@ -1,5 +1,4 @@
 ## Fullstack Lab - BUG TRACKER
-## Dev Pleno - Túlio Faria 
 
 ### Atualização: 10 de novembro de 2019 - 16:45
 ### Criação: 09 de novembro de 2019

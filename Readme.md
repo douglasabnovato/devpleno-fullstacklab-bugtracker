@@ -1,40 +1,45 @@
-Dev Pleno - Fullstack Lab - BUG TRACKER
-Túlio Faria
+## Fullstack Lab - BUG TRACKER
+## Dev Pleno - Túlio Faria 
 
-Preparando o Ambiente
-https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh
+### Atualização: 10 de novembro de 2019 - 16:45
+### Criação: 09 de novembro de 2019
+### Prática : @douglasabnovato
 
-Aula Extra 1: Primeiros passos com JavaScript - Fullstack Lab
-https://www.youtube.com/watch?v=t6uBa6p94wo
+### Ferramentas : 
 
-Aula Extra 2: Assincronismo em JS: O que você PRECISA saber - Fullstack Lab
-https://www.youtube.com/watch?v=sTBNHwPkpCg
+![ReactJS](/images/logo-reactjs.jpg)
+![Git](/images/logo-git.png)
+![Github](/images/logo-github.png)
+![HTML/CSS/Javascript](/images/logo-html-css-js.jpeg)
+![VSCode](/images/logo-VSCode.png)
+![Yarn](/images/logo-yarn.png)
+![Nodejs](/images/logo-nodejs.png)
 
-Fullstack Lab - Aula 1 : Nov 4, 2019
-https://www.youtube.com/watch?v=AbK1_5ntLyg
+#### Preparando o Ambiente
+`https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
 
-bug tracker
+#### Aula Extra 1: Primeiros passos com JavaScript - Fullstack Lab
+`https://www.youtube.com/watch?v=t6uBa6p94wo`
 
-Fullstack developer  
+#### Aula Extra 2: Assincronismo em JS: O que você PRECISA saber - Fullstack Lab
+`https://www.youtube.com/watch?v=sTBNHwPkpCg`
 
-frontend
-html
-javascript
-css
+#### Fullstack Lab - Aula 1 : Nov 4, 2019
+`https://www.youtube.com/watch?v=AbK1_5ntLyg`
+- Projeto BUG TRACKER
+- Fullstack developer  
+- frontend: html, javascript, css
+- backend: nodejs, mysql 
 
-backend
-nodejs
-mysql
+#### Fullstack Lab - Aula 2 : Nov 6, 2019
+`https://www.youtube.com/watch?v=potiA3YWvB4`
+- C:\douglasabnovato\devPleno\fullstack-lab\bugtracker
+- `npm init`
+- `npm install express`
+- `node index.js`
 
-projeto 
+#### Fullstack Lab - Aula 3 : Nov 8, 2019
+`https://youtu.be/LYBcsK972u0`
 
-Fullstack Lab - Aula 2 : Nov 6, 2019
-https://www.youtube.com/watch?v=potiA3YWvB4
-
-C:\douglasabnovato\devPleno\fullstack-lab\bugtracker
-npm init
-npm install express
-
-
-Fullstack Lab - Aula 3 : Nov 8, 2019
-https://youtu.be/LYBcsK972u0
+:. De `Fullstack Lab - Dev Pleno`.<br/> 
+Por Túlio Faria

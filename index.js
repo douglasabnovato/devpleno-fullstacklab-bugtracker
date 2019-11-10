@@ -1,9 +1,15 @@
-const express = require('express');
-
-const app = express();
+const express = require('express')
+const app = express()
 
 app.get('/', (request, response) => {
-    response.send('Projeto BUG TRACKER no Treinamento Fullstack Lab da Dev Plano pelo Túlio Faria.');
+    response.send(request.query);
 })
 
-app.listen(3000);
+app.get('/soma', (request, response) => {
+    const a = parseInt(request.query.a);
+    const b = parseInt(request.query.b);
+    const soma = a + b
+    response.send('Soma é ' + soma)
+})
+
+app.listen(3000)

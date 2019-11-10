@@ -16,6 +16,10 @@
 
 #### Preparando o Ambiente
 `https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
+- NodeJS: executar o javascript no servidor
+- NPM: node package manager, é um gerenciador de dependências
+- VSCODE: o editor de código
+- Google Chrome: browser para inspecionar o código da aplicação e visualizar o resultado visual do projeto
 
 #### Aula Extra 1: Primeiros passos com JavaScript - Fullstack Lab
 `https://www.youtube.com/watch?v=t6uBa6p94wo`
@@ -36,6 +40,7 @@
 - `npm init`
 - `npm install express`
 - `node index.js`
+- `npm install ejs` 
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`

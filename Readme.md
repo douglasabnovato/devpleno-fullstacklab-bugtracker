@@ -42,8 +42,8 @@
 - `npm init`
 - `npm install express`
 - `node index.js`
-- `npm install ejs` 
 - `http://localhost:3000/soma?a=10&b=22`
+- `npm install ejs` 
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`

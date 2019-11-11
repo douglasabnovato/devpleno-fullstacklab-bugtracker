@@ -44,6 +44,7 @@
 - `node index.js`
 - `http://localhost:3000/soma?a=10&b=22`
 - `npm install ejs` 
+- tratar formulário: `npm install body-parser`
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`

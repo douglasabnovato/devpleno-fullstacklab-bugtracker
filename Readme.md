@@ -48,6 +48,7 @@
 - tabela de dados: google api console
 - Google Drive API
 - Google Cloud Platform
+- npm install google-spreadsheet
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`

@@ -16,6 +16,10 @@
 ![Google Chrome](/images/logo-google-chrome.jpg)
 ![NPM](/images/logo-npm.png)
 
+### Desafio :
+
+![Desafio](/images/desafio.jpg)
+
 #### Preparando o Ambiente
 `https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
 - NodeJS: executar o javascript no servidor

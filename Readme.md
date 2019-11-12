@@ -1,6 +1,6 @@
 ## Fullstack Lab - BUG TRACKER
 
-### Atualização: 10 de novembro de 2019 - 16:45
+### Atualização: 12 de novembro de 2019 - 12:23
 ### Criação: 09 de novembro de 2019
 ### Prática : @douglasabnovato
 

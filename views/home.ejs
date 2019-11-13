@@ -2,6 +2,16 @@
 <html>
     <head>
         <title>BUG Tracker</title>
+        <script>
+            document.onreadystatechange = () => {
+                if(document.readyState === 'interactive') {
+                    document.getElementById('userAgent').value = window.navigator.userAgent
+                    console.log('ola', window.navigator)
+                    console.log('hello', window.navigator.userAgent)
+                    console.log('hora', new Date())
+                }
+            }
+        </script>        
     </head>
     <body>
         <h1>Ferramenta de relatório de BUGs</h1>
@@ -24,6 +34,8 @@
 
             <label for="receivedOutput">A saída recebida ?</label>
             <input type="text" id="receivedOutput" name="receivedOutput" />
+
+            <input type="text" id="userAgent" name="userAgent" />
 
             <button>Enviar Solicitação </button>
         </form>

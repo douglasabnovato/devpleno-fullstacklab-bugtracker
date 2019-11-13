@@ -20,23 +20,21 @@ app.get('/', (request, response) => {
     response.render('home')
 })
 
-app.post('/', (request, response) => {
-    
-    const doc = new GoogleSpreadSheet(docId)
-
-    doc.useServiceAccountAuth(credentials, (err) => {
-        if(err){
-            console.log('Não foi possível abrir essa planilha.')
-        } else {
-            console.log('Planilha aberta.')
-            doc.getInfo((err, info) => {
-                const worksheet = info.worksheets[worksheetIndex]
-                worksheet.addRow({ name: request.body.name, email: request.body.email}, err => {
-                    response.send('bug reportado com sucesso.')
-                })            
-            })
-        }
-    })    
+app.post('/', async(request, response) => {
+    try{
+        const doc = new GoogleSpreadSheet(docId)
+        await promisify(doc.useServiceAccountAuth)(credentials)
+        const info = await promisify(doc.getInfo)()
+        const worksheet = info.worksheets[worksheetIndex]
+        await promisify(worksheet.addRow)({
+            name: request.body.name,
+            email: request.body.email
+        })
+        response.send('bug reportado com sucesso')
+    } catch (err) {
+        response.send('erro ao enviar formulário')
+        console.log(err)
+    }
 })
 
 app.listen(3000, (err) => {

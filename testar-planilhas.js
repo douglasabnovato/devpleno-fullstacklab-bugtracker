@@ -1,5 +1,5 @@
 const GoogleSpreadSheet = require('google-spreadsheet')
-const credentials = require('./bugtracker')
+const credentials = require('./bugtracker.json')
 
 const doc = new GoogleSpreadSheet('1PvX1bAA2VeUjeZGdNuJf1rVJSbMJslqoF0rOw_JYe7o')
 

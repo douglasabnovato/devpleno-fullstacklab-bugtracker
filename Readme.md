@@ -1,6 +1,6 @@
 ## Fullstack Lab - BUG TRACKER
 
-### Atualização: 13 de novembro de 2019 - 12:49
+### Atualização: 13 de novembro de 2019 - 16:13
 ### Criação: 09 de novembro de 2019
 ### Prática : @douglasabnovato
 
@@ -57,6 +57,23 @@
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`
+- tornando o código mais objetivo e de melhor entendimento
+````javascript
+const doc = new GoogleSpreadSheet('1PvX1bAA2VeUjeZGdNuJf1rVJSbMJslqoF0rOw_JYe7o')
+doc.useServiceAccountAuth(credentials, (err) => {
+    if(err){
+        console.log('Não foi possível abrir essa planilha.')
+    } else {
+        console.log('Planilha aberta.')
+        doc.getInfo((err, info) => {
+            const worksheet = info.worksheets[0]
+            worksheet.addRow({ name: 'Túlio', email: 'tulio@faria.com.br'}, err => {
+                console.log('linha inserida')
+            })  
+        })
+    }
+})
+````
 
 :. De `Fullstack Lab - Dev Pleno`.<br/> 
 Por Túlio Faria

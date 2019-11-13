@@ -8,5 +8,11 @@ doc.useServiceAccountAuth(credentials, (err) => {
         console.log('Não foi possível abrir essa planilha.')
     } else {
         console.log('Planilha aberta.')
+        doc.getInfo((err, info) => {
+            const worksheet = info.worksheets[0]
+            worksheet.addRow({ name: 'Túlio', email: 'tulio@faria.com.br'}, err => {
+                console.log('linha inserida')
+            })  
+        })
     }
 })

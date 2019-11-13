@@ -53,6 +53,7 @@
 - Google Drive API
 - Google Cloud Platform
 - `npm install google-spreadsheet`
+- testar-planilhas.js: arquivo para testar inserir informações em excel do google drive
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`

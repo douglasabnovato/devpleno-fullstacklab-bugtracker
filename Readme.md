@@ -23,9 +23,6 @@
 ![Desafio](/images/desafio.jpg)
 - A aplicação está no ar em : **https://bugtracker.douglasabnovato.now.sh**
 
-### Aplicação no ar :
-![Aplicação no ar](/images/tela-1.jpg)
-
 #### Preparando o Ambiente
 `https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
 - NodeJS: executar o javascript no servidor
@@ -88,6 +85,9 @@ doc.useServiceAccountAuth(credentials, (err) => {
 - colocar a aplicação no ar: `npm install -g now`
 - Now - `zeit.co`
 - No ar em : `https://bugtracker.douglasabnovato.now.sh`
+
+### Aplicação no ar :
+![Aplicação no ar](/images/tela-1.jpg)
 
 :. De `Fullstack Lab - Dev Pleno`.<br/> 
 Por Túlio Faria

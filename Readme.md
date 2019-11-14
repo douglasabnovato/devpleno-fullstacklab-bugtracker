@@ -20,9 +20,11 @@
 
 
 ### Desafio :
-
 ![Desafio](/images/desafio.jpg)
 - A aplicação está no ar em : **https://bugtracker.douglasabnovato.now.sh**
+
+### Aplicação no ar:
+![Aplicação no ar](/images/tela-1.jpg)
 
 #### Preparando o Ambiente
 `https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
@@ -31,12 +33,6 @@
 - VSCODE: o editor de código
 - Google Chrome: browser para inspecionar o código da aplicação e visualizar o resultado visual do projeto
 
-#### Aula Extra 1: Primeiros passos com JavaScript - Fullstack Lab
-`https://www.youtube.com/watch?v=t6uBa6p94wo`
-
-#### Aula Extra 2: Assincronismo em JS: O que você PRECISA saber - Fullstack Lab
-`https://www.youtube.com/watch?v=sTBNHwPkpCg`
-
 #### Fullstack Lab - Aula 1 : Nov 4, 2019
 `https://www.youtube.com/watch?v=AbK1_5ntLyg`
 - Projeto BUG TRACKER
@@ -44,11 +40,15 @@
 - frontend: html, javascript, css
 - backend: nodejs, mysql 
 
+#### Aula Extra 1: Primeiros passos com JavaScript - Fullstack Lab
+`https://www.youtube.com/watch?v=t6uBa6p94wo`
+- Javascript, funções, variáveis, e muito mais.
+
 #### Fullstack Lab - Aula 2 : Nov 6, 2019
 `https://www.youtube.com/watch?v=potiA3YWvB4`
 - C:\douglasabnovato\devPleno\fullstack-lab\bugtracker
 - `npm init`
-- `npm install express`
+- Express : framework para criar aplicação web : `npm install express`
 - `node index.js`
 - `http://localhost:3000/soma?a=10&b=22`
 - `npm install ejs` 
@@ -58,6 +58,9 @@
 - Google Cloud Platform
 - `npm install google-spreadsheet`
 - testar-planilhas.js: arquivo para testar inserir informações em excel do google drive
+
+#### Aula Extra 2: Assincronismo em JS: O que você PRECISA saber - Fullstack Lab
+`https://www.youtube.com/watch?v=sTBNHwPkpCg`
 
 #### Fullstack Lab - Aula 3 : Nov 8, 2019
 `https://youtu.be/LYBcsK972u0`

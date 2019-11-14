@@ -23,7 +23,7 @@
 ![Desafio](/images/desafio.jpg)
 - A aplicação está no ar em : **https://bugtracker.douglasabnovato.now.sh**
 
-### Aplicação no ar:
+### Aplicação no ar :
 ![Aplicação no ar](/images/tela-1.jpg)
 
 #### Preparando o Ambiente

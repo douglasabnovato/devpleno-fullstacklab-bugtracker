@@ -20,6 +20,7 @@
 ### Desafio :
 
 ![Desafio](/images/desafio.jpg)
+- A aplicação está no ar em : **https://bugtracker.douglasabnovato.now.sh**
 
 #### Preparando o Ambiente
 `https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
@@ -80,6 +81,8 @@ doc.useServiceAccountAuth(credentials, (err) => {
 - `npm install --save @sendgrid/mail`
 - layout : Bootstrap : `https://getbootstrap.com/`
 - colocar a aplicação no ar: `npm install -g now`
+- Now - `zeit.co`
+- No ar em : `https://bugtracker.douglasabnovato.now.sh`
 
 :. De `Fullstack Lab - Dev Pleno`.<br/> 
 Por Túlio Faria

@@ -15,6 +15,7 @@
 ![Nodejs](/images/logo-nodejs.png)
 ![Google Chrome](/images/logo-google-chrome.jpg)
 ![NPM](/images/logo-npm.png)
+![Bootstrap](/images/logo-bootstrap.jpg)
 
 ### Desafio :
 

@@ -1,6 +1,6 @@
 ## Fullstack Lab - BUG TRACKER
 
-### Atualização: 14 de novembro de 2019 - 11:50
+### Atualização: 14 de novembro de 2019 - 12:35
 ### Criação: 09 de novembro de 2019
 ### Prática : @douglasabnovato
 
@@ -79,6 +79,7 @@ doc.useServiceAccountAuth(credentials, (err) => {
 - sendGrid: envio de e-mails automatizados: `https://sendgrid.com/`
 - `npm install --save @sendgrid/mail`
 - layout : Bootstrap : `https://getbootstrap.com/`
+- colocar a aplicação no ar: `npm install -g now`
 
 :. De `Fullstack Lab - Dev Pleno`.<br/> 
 Por Túlio Faria

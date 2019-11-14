@@ -28,7 +28,9 @@ app.post('/', async(request, response) => {
         const worksheet = info.worksheets[worksheetIndex]
         await promisify(worksheet.addRow)({
             name: request.body.name,
-            email: request.body.email
+            email: request.body.email,
+            userAgent: request.body.userAgent,
+            userDate: request.body.userDate
         })
         response.send('bug reportado com sucesso')
     } catch (err) {

@@ -74,6 +74,7 @@ doc.useServiceAccountAuth(credentials, (err) => {
     }
 })
 ````
+- adicionando mais colunas na nossa planilha que armazena os dados do formulário API do Google Cloud Platform
 
 :. De `Fullstack Lab - Dev Pleno`.<br/> 
 Por Túlio Faria

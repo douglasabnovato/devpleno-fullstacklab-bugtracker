@@ -6,9 +6,7 @@
             document.onreadystatechange = () => {
                 if(document.readyState === 'interactive') {
                     document.getElementById('userAgent').value = window.navigator.userAgent
-                    console.log('ola', window.navigator)
-                    console.log('hello', window.navigator.userAgent)
-                    console.log('hora', new Date())
+                    document.getElementById('userDate').value = new Date()
                 }
             }
         </script>        
@@ -24,7 +22,14 @@
             <input type="email" id="email" name="email" />
 
             <label for="issueType">Classificação</label>
-            <input type="text" id="issueType" name="issueType" />
+            <select id="issueType" name="issueType">
+                <option value="">Selecione</option>
+                <option value="BUG">Bug</option>
+                <option value="CRITICAL">Crítico</option>
+                <option value="ENHANCEMENT">Melhoria</option>
+            </select>
+
+
 
             <label for="howToReproduce">Como reproduzir o erro ?</label>
             <input type="text" id="howToReproduce" name="howToReproduce" />
@@ -35,7 +40,8 @@
             <label for="receivedOutput">A saída recebida ?</label>
             <input type="text" id="receivedOutput" name="receivedOutput" />
 
-            <input type="text" id="userAgent" name="userAgent" />
+            <input type="hidden" id="userAgent" name="userAgent" />
+            <input type="hidden" id="userDate" name="userDate" />
 
             <button>Enviar Solicitação </button>
         </form>

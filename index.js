@@ -30,7 +30,9 @@ app.post('/', async(request, response) => {
             name: request.body.name,
             email: request.body.email,
             userAgent: request.body.userAgent,
-            userDate: request.body.userDate
+            userDate: request.body.userDate,
+            issueType: request.body.issueType,
+            source: request.body.source || 'direct'
         })
         response.send('bug reportado com sucesso')
     } catch (err) {

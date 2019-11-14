@@ -75,6 +75,7 @@ doc.useServiceAccountAuth(credentials, (err) => {
 })
 ````
 - adicionando mais colunas na nossa planilha que armazena os dados do formulário API do Google Cloud Platform
+- sendGrid: envio de e-mails automatizados: `https://sendgrid.com/`
 
 :. De `Fullstack Lab - Dev Pleno`.<br/> 
 Por Túlio Faria

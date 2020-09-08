@@ -1,10 +1,14 @@
-## Fullstack Lab - BUG TRACKER
+### BUG TRACKER
 
-### Atualização: 14 de novembro de 2019 - 13:56
-### Criação: 09 de novembro de 2019
-### Prática : @douglasabnovato
+#### Objetivo
 
-### Ferramentas : 
+Uma aplicação web para permitir reportar bugs internamente de uma organização.
+
+- Desafio: ![Desafio](/images/desafio.jpg)
+
+#### Ferramentas / Tecnologias
+
+Uma aplicação web responsiva, desenvolvida em html, css e javascript em modelo spa.
 
 ![ReactJS](/images/logo-reactjs.jpg)
 ![Git](/images/logo-git.png)
@@ -18,50 +22,34 @@
 ![Bootstrap](/images/logo-bootstrap.jpg)
 ![Google Cloud Platform](/images/logo-google-cloud-platform.jpg)
 
+#### Tarefas
 
-### Desafio :
-![Desafio](/images/desafio.jpg)
-- A aplicação está no ar em : **https://bugtracker.douglasabnovato.now.sh**
-
-#### Preparando o Ambiente
-`https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
-- NodeJS: executar o javascript no servidor
-- NPM: node package manager, é um gerenciador de dependências
-- VSCODE: o editor de código
-- Google Chrome: browser para inspecionar o código da aplicação e visualizar o resultado visual do projeto
-
-#### Fullstack Lab - Aula 1 : Nov 4, 2019
-`https://www.youtube.com/watch?v=AbK1_5ntLyg`
-- Projeto BUG TRACKER
-- Fullstack developer  
-- frontend: html, javascript, css
-- backend: nodejs, mysql 
-
-#### Aula Extra 1: Primeiros passos com JavaScript - Fullstack Lab
-`https://www.youtube.com/watch?v=t6uBa6p94wo`
-- Javascript, funções, variáveis, e muito mais.
-
-#### Fullstack Lab - Aula 2 : Nov 6, 2019
-`https://www.youtube.com/watch?v=potiA3YWvB4`
-- C:\douglasabnovato\devPleno\fullstack-lab\bugtracker
-- `npm init`
-- Express : framework para criar aplicação web : `npm install express`
-- `node index.js`
-- `http://localhost:3000/soma?a=10&b=22`
-- `npm install ejs` 
-- tratar formulário: `npm install body-parser`
-- tabela de dados: google api console
-- Google Drive API
-- Google Cloud Platform
-- `npm install google-spreadsheet`
-- testar-planilhas.js: arquivo para testar inserir informações em excel do google drive
-
-#### Aula Extra 2: Assincronismo em JS: O que você PRECISA saber - Fullstack Lab
-`https://www.youtube.com/watch?v=sTBNHwPkpCg`
-
-#### Fullstack Lab - Aula 3 : Nov 8, 2019
-`https://youtu.be/LYBcsK972u0`
-- tornando o código mais objetivo e de melhor entendimento
+- [x] 1. Preparando o Ambiente
+- [x] 1.1. `https://el2.convertkit-mail.com/c/v8uorq332eirhodo99fg/mncw7xkei5h9zpn2kk/aHR0cDovL2JpdC5seS9mc2xtYXRlcmlhbGV4dHJh`
+- [x] 1.2. NodeJS: executar o javascript no servidor
+- [x] 1.3. NPM: node package manager, é um gerenciador de dependências
+- [x] 1.4. VSCODE: o editor de código
+- [x] 1.5. Google Chrome: browser para inspecionar o código da aplicação e visualizar o resultado visual do projeto 
+- [x] 2. Projeto BUG TRACKER
+- [x] 2.1. Fullstack developer  
+- [x] 2.2. frontend: html, javascript, css
+- [x] 2.3. backend: nodejs, mysql 
+- [x] 3. Detalhes das tecnologias do projeto
+- [x] 3.1. Javascript, funções, variáveis, e muito mais.
+- [x] 4. Express
+- [x] 4.1. framework para criar aplicação web : `npm install express`
+- [x] 4.2. `node index.js`
+- [x] 4.3. `http://localhost:3000/soma?a=10&b=22`
+- [x] 4.4. `npm install ejs` 
+- [x] 4.5. tratar formulário: `npm install body-parser`
+- [x] 4.6. tabela de dados: google api console
+- [x] 4.7. Google Drive API
+- [x] 4.8. Google Cloud Platform
+- [x] 4.9. `npm install google-spreadsheet`
+- [x] 4.10. testar-planilhas.js: arquivo para testar inserir informações em excel do google drive
+- [x] 5. Assincronismo em JS 
+- [x] 6. Refatorando
+- [x] 6.1. Tornando o código mais objetivo e de melhor entendimento
 ````javascript
 const doc = new GoogleSpreadSheet('1PvX1bAA2VeUjeZGdNuJf1rVJSbMJslqoF0rOw_JYe7o')
 doc.useServiceAccountAuth(credentials, (err) => {
@@ -78,16 +66,25 @@ doc.useServiceAccountAuth(credentials, (err) => {
     }
 })
 ````
-- adicionando mais colunas na nossa planilha que armazena os dados do formulário API do Google Cloud Platform
-- sendGrid: envio de e-mails automatizados: `https://sendgrid.com/`
-- `npm install --save @sendgrid/mail`
-- layout : Bootstrap : `https://getbootstrap.com/`
-- colocar a aplicação no ar: `npm install -g now`
-- Now - `zeit.co`
-- No ar em : `https://bugtracker.douglasabnovato.now.sh`
+- [x] 6.2. adicionando mais colunas na nossa planilha que armazena os dados do formulário API do Google Cloud Platform
+- [x] 6.3. sendGrid: envio de e-mails automatizados: `https://sendgrid.com/`
+- [x] 6.4. `npm install --save @sendgrid/mail`
+- [x] 7. Design
+- [x] 7.1. Bootstrap : `https://getbootstrap.com/`
+- [x] 8. Deploy 
+- [x] 8.1. colocar a aplicação no ar: `npm install -g now`
+- [x] 8.2. Now - `zeit.co` 
 
-### Aplicação no ar :
-![Aplicação no ar](/images/tela-1.jpg)
+#### Detalhes
 
-:. De `Fullstack Lab - Dev Pleno`.<br/> 
-Por Túlio Faria
+- Criação: 14 de novembro de 2019
+- Atualização: 09 de novembro de 2019
+- Terminado: Sim 
+- Publicado: [BUG TRACKER](https://bugtracker.douglasabnovato.now.sh)
+
+#### Publicado
+
+![BUG TRACKER](/images/tela-1.jpg)<br/>
+
+:. [Linkedin - @douglasabnovato](https://www.linkedin.com/in/douglasabnovato/)<br/>
+. De [Túlio Faria - Fullstack Lab - Dev Pleno](https://www.youtube.com/watch?v=AbK1_5ntLyg)

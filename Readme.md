@@ -9,6 +9,9 @@ Uma aplicação web para permitir reportar bugs internamente de uma organizaçã
 #### Ferramentas / Tecnologias
 
 Uma aplicação web responsiva, desenvolvida em html, css e javascript em modelo spa.
+E para armazenar essas informações, utilizamos o Google Drive e suas planilhas. Para isso dar certo, o Google Cloud Platform permite essa interação dos dados.
+
+Destaques: html, javascript, css, nodejs, reactjs, Express, mysql, NPM, VSCODE, Google Chrome, Google Cloud Platform, Google Drive API, Bootstrap, Now zeit.co, sendGrid.
 
 ![ReactJS](/images/logo-reactjs.jpg)
 ![Git](/images/logo-git.png)

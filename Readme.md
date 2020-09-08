@@ -4,7 +4,7 @@
 
 Uma aplicação web para permitir reportar bugs internamente de uma organização.
 
-- Desafio: ![Desafio](/images/desafio.jpg)
+- Desafio: <br/> ![Desafio](/images/desafio.jpg)
 
 #### Ferramentas / Tecnologias
 
